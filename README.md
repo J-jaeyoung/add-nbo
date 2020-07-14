@@ -17,8 +17,8 @@ $ ./add-nbo sample1.bin sample2.bin
 |time|22.397s|45.331s| 
 
 ```
-$ gcc -o BSWAP bswap.c
-$ gcc -o MOV mov.c
-$ time ./BSWAP
-$ time ./MOV
+$ gcc -o .test/BSWAP .test/bswap.c
+$ gcc -o .test/MOV .test/mov.c
+$ time .test/BSWAP
+$ time .test/MOV
 ```
