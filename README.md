@@ -22,3 +22,6 @@ $ gcc -o .test/MOV .test/mov.c
 $ time .test/BSWAP
 $ time .test/MOV
 ```
+
+## Spec
+[gilgil_gitlab](https://gitlab.com/gilgil/sns/-/wikis/byte-order/report)
