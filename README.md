@@ -12,7 +12,7 @@ $ ./add-nbo sample1.bin sample2.bin
 ## Additional (bswap speed test)
 `bswap`과 `mov` 의 성능 비교
 
-|a|BSWAP|MOV|
+|a|mov|bswap|
 |-|-|-|
 |time|22.397s|45.331s| 
 
