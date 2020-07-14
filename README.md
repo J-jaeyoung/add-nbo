@@ -11,6 +11,7 @@ $ ./add-nbo sample1.bin sample2.bin
 
 ## Additional (bswap speed test)
 `bswap`과 `mov` 의 성능 비교
+
 `mov`의 CPI가 1일테니, `bswap`은 CPI가 2일 듯
 
 |a|mov|bswap|
