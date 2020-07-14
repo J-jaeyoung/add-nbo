@@ -16,7 +16,7 @@ int main(int argc, char *argv[]){
     fread(&first, 1, 4, f1);
     fread(&second, 1, 4, f2);
 
-    first = htonl(first);
+    first = ntohl(first);
     second = ntohl(second);
     sum = first + second;
     printf("%d(0x%x) + %d(0x%x) = %d(0x%x)\n", 
