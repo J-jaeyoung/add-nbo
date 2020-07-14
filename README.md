@@ -10,9 +10,15 @@ $ ./add-nbo sample1.bin sample2.bin
 ```
 
 ## Additional (bswap speed test)
+`bswap`과 `mov` 의 성능 비교
+
+|a|BSWAP|MOV|
+|-|-|-|
+|time|22.397s|45.331s| 
+
 ```
 $ gcc -o BSWAP bswap.c
 $ gcc -o MOV mov.c
-$ time ./BSWAP > bswap_time
-$ time ./MOV > mov_time
+$ time ./BSWAP
+$ time ./MOV
 ```
