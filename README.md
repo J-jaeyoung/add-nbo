@@ -27,3 +27,8 @@ $ time .test/MOV
 
 ## Spec
 [gilgil_gitlab](https://gitlab.com/gilgil/sns/-/wikis/byte-order/report)
+
+## Summary
+<kbd>ntohs</kbd> == <kbd>htons</kbd>
+
+<kbd>ntohl</kbd> == <kbd>htonl</kbd>
